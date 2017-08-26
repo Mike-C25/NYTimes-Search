@@ -1,15 +1,50 @@
-<<<<<<< HEAD
-test test
-=======
 <html>
 	<head>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<div class="jumbotron">
-  <h1 class="display-3">Hello, world!</h1>
+		<div class="jumbotron header">
+  <h1 class="display-3"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> &nbsp;New York Times Search</h1>
   
+</div>
+
+<div class="panel panel-default searchForm">
+  <div class="panel-heading"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>&nbsp; Search Parameters</div>
+  
+  <div class="panel-body">
+
+  <div class="container">
+  <form>
+    <div class="form-group">
+      
+      <label for="search">Search Term:</label>
+      <input type="text" id="search" class="form-control">
+      
+      <label for="numbOfRecs">Number of Records to Retrieve:</label>
+      <input type="password" id="numbOfRecs" class="form-control">
+      
+      <label for="startYear">Start Year (Optional):</label>
+      <input type="password" class="form-control" id="startYear">
+      
+      <label for="endYear">End Year (Optional):</label>
+      <input type="password" class="form-control" id="endYear">
+
+      <button class="btn btn-primary ourBtn" type="submit" id="searchButt">Search</button>
+      <button class="btn btn-primary ourBtn" type="submit" id="clearButt">Clear Results</button>
+    </div>
+  </form>
+</div>
+</div>
+</div>
+
+
+	<div class="panel panel-default searchForm">
+  <div class="panel-heading"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>&nbsp; Search Parameters</div>
+  
+  <div class="panel-body" id="results">
+
+  </div>
 </div>
 
 
@@ -18,4 +53,3 @@ test test
 		<script type="text/javascript" src="js/script.js"></script>
 	</body>
 </html>
->>>>>>> refs/remotes/origin/master
