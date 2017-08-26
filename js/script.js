@@ -39,9 +39,9 @@ $(document).ready(function() {
             var mainDiv = $("<div class='article-result'>");
             var numberDiv = $("<div class='article-number'>");
             var titleBlock = $("<h4 class='article-title'>");
-            var authorBlock = $("<p class='article-author>");
-            var sectionBlock = $("<p class='article-section>");
-            var dateBlock = $("<p class='article-date>");
+            var authorBlock = $("<p class='article-author'>");
+            var sectionBlock = $("<p class='article-section'>");
+            var dateBlock = $("<p class='article-date'>");
             var linkBlock = $("<a class='article-link'>");
 
 
@@ -57,7 +57,7 @@ $(document).ready(function() {
             authorBlock.text(author);
             sectionBlock.text(section);
             dateBlock.text(pubDate);
-            linkBlock.attr("src", link);
+            linkBlock.text(link).attr("src", link);
 
             mainDiv.append(numberDiv, titleBlock, authorBlock, sectionBlock, dateBlock, linkBlock);
 
