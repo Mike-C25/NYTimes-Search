@@ -20,15 +20,27 @@
       
       <label for="search">Search Term:</label>
       <input type="text" id="search" class="form-control">
-      
+      <!-- sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
       <label for="numbOfRecs">Number of Records to Retrieve:</label>
-      <input type="password" id="numbOfRecs" class="form-control">
-      
+      <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+      <!-- sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
       <label for="startYear">Start Year (Optional):</label>
-      <input type="password" class="form-control" id="startYear">
+      <input  class="form-control" id="startYear">
       
       <label for="endYear">End Year (Optional):</label>
-      <input type="password" class="form-control" id="endYear">
+      <input  class="form-control" id="endYear">
 
       <button class="btn btn-primary ourBtn" type="submit" id="searchButt"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> &nbsp; Search</button>
       <button class="btn btn-primary ourBtn" type="submit" id="clearButt"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> &nbsp; Clear Results</button>
@@ -49,6 +61,8 @@
 
 
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<script type="text/javascript" src="js/script.js"></script>
 	</body>
